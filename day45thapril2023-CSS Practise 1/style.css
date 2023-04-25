@@ -1,0 +1,51 @@
+/*external cs*/
+
+/* the tag selector */
+body{
+    background-color: bisque;
+}
+img{
+    height: 100px;
+    width: 100px;   /* dimensions:px,%,em*/
+                    /* color:name,#00000,rgb(r,g,b)*/
+}
+
+
+/* Class Selector */
+.first_para{
+    color: red;
+}
+.red_apple{
+    background-color: green;
+}
+.green_apple{                 /*two classes (greenapple and circular by space in between) given to green apple*/
+    background-color:red;
+}
+.circular{
+    border-radius: 100%;
+}
+
+/*ID Selector*/
+#special{
+    background-color: aquamarine;
+    font-weight: bold;
+    color: blueviolet;
+    
+}
+
+/*Grouping the Selectors*/
+.ekgroup,h1{
+    background-color: darksalmon;
+    font-weight: bold;
+    color: cadetblue;
+}
+
+/*Pseudo Selectors*/
+.apple{
+    color:green;
+} 
+.apple:hover{
+    background-color: darkmagenta;
+    color: cornsilk;
+    font-weight: bold;
+}
